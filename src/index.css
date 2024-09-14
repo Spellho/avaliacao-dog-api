@@ -8,5 +8,5 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: rgb(241, 241, 218);
 }

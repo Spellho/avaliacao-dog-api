@@ -1,8 +1,15 @@
 #btnRefresh {
-    background-color: black;
-    padding: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 7px;
+    background-color: rgb(158, 45, 42);
     color: rgb(255, 255, 255);
-    border-color: white;
+    font-size: 18PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 9px;
+    border: solid 3.5px rgb(255, 204, 163);
+}
+.listapi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
 }

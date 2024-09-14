@@ -5,6 +5,19 @@
     padding: 0px;
     text-align: center;
 }
+.cabecalho h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.cabecalho img {
+    height: 70px;
+    width: 70px;
+}
+.company {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+}
 
 .cabecalho ol {
     margin: 0;
@@ -17,10 +30,17 @@
 .cabecalho ol a {
     color: white;
     text-decoration: 0;
-    border-color: blueviolet;
+    border-bottom: solid 3px rgb(158, 45, 42);
+    border-top: solid 3px rgb(158, 45, 42);
+    
 }
 .cabecalho ol a:hover {
     background-color: rgb(95, 25, 22);
+    border-bottom: solid 3px white;
+    border-top: solid 3px white;
+    border-right: solid 3px white;
+    border-left: solid 3px white;
+
 }
 
 .cabecalho a {

@@ -4,17 +4,21 @@ import './styles.css'
 export default function Header() {
     return (
         <header className='cabecalho'>
-            <h1>☺ Random Dog ☺</h1>
+            <div className='company'>
+                <img src="./src/assets/doge-coin.png" alt="doge coin" />
+                <h1>DOG COMPANY</h1>
+                <img src="./src/assets/doge-coin.png" alt="doge coin" />
+            </div>
             <nav>
                 <ol>
                     <Link to={"/"}>
-                        <li>Home</li>
+                        <li>HOME</li>
                     </Link>
                     <Link to={"/cachorros"}>
-                        <li>Cachorros</li>
+                        <li>CACHORROS</li>
                     </Link>
                     <Link to={"/about"}>
-                        <li>Sobre</li>
+                        <li>SOBRE</li>
                     </Link>
                 </ol>
             </nav>

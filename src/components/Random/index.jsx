@@ -13,7 +13,7 @@ export default function Random() {
         }
 
         const response = await fetch(
-            "https://api.thedogapi.com/v1/images/search",
+            "https://api.thedogapi.com/v1/images/search?limit=10",
             reqOptions
         )
 
@@ -50,7 +50,7 @@ export default function Random() {
             { conteudo }
         </div>
         <div className='divButton'>
-            <button id='btnRefresh' onClick={handleRefresh}>Novo Cachorro</button>
+            <button id='btnRefresh' onClick={handleRefresh}>♦ NOVOS DOGS ♦</button>
         </div>
         </>
     )    

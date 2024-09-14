@@ -10,6 +10,9 @@ export default function Header() {
                     <Link to={"/"}>
                         <li>Home</li>
                     </Link>
+                    <Link to={"/random"}>
+                        <li>Random</li>
+                    </Link>
                 </ol>
             </nav>
         </header>

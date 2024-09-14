@@ -3,7 +3,8 @@ import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './pages/Home'
-import Random from './pages/Random'
+import About from './pages/About'
+import Cachorros from './pages/Cachorros'
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
       <main id='container'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/random' element={<Random />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/cachorros' element={<Cachorros />} />
         </Routes>
       </main>
       <Footer />

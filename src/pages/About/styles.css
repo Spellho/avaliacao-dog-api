@@ -1,12 +1,12 @@
-.homepage {
+.about {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(158, 45, 42);
     color: white;
     text-align: center;
-    width: 1000px;
+    width: 800px;
     padding: 15px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }

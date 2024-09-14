@@ -1,5 +1,6 @@
 .cabecalho {
-    background-color: rgb(202, 199, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(158, 45, 42);
     color: white;
     padding: 0px;
     text-align: center;
@@ -16,12 +17,13 @@
 .cabecalho ol a {
     color: white;
     text-decoration: 0;
+    border-color: blueviolet;
 }
 .cabecalho ol a:hover {
-    background-color: #525301;
+    background-color: rgb(95, 25, 22);
 }
 
 .cabecalho a {
     width: 99%;
-    padding: 20px;
+    padding: 15px;
 }

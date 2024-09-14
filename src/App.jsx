@@ -9,10 +9,12 @@ export default function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/random' element={<Random />} />
-      </Routes>
+      <main id='container'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/random' element={<Random />} />
+        </Routes>
+      </main>
       <Footer />
     </>
   )
